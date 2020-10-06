@@ -20,12 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c75bb0-ac6a-4762-bf67-f15133c5d351" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Controller/AnswersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Controller/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Controller/LogoutController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Controller/QuestionsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Controller/UsersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Template/Login/index.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Template/Questions/add.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Template/Questions/index.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Template/Questions/view.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Template/Users/add.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Template/Users/edit.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Template/Users/password.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/webroot/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Model/Entity/empty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Model/Table/empty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/Fixture/empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Controller/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Controller/AppController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Template/Layout/default.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Template/Layout/default.ctp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +111,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hOWF80EKKv8mf9k0cL58RpPPKF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -114,7 +129,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -128,7 +143,9 @@
       <workItem from="1599882515616" duration="1905000" />
       <workItem from="1599891461630" duration="1968000" />
       <workItem from="1599900516323" duration="19454000" />
-      <workItem from="1601083183472" duration="21773000" />
+      <workItem from="1601083183472" duration="31534000" />
+      <workItem from="1601422900088" duration="130000" />
+      <workItem from="1601642962242" duration="25090000" />
     </task>
     <servers />
   </component>
@@ -148,19 +165,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1303" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601084448983">
-      <screen x="-1920" y="-77" width="1920" height="1080" />
+    <state x="478" y="129" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601816768946">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="-869" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1280.0.1280.720@-1280.0.1280.720" timestamp="1599920231096" />
     <state x="-1303" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1601084448983" />
-    <state x="-1287" y="272" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601108126208">
-      <screen x="-1920" y="-77" width="1920" height="1080" />
+    <state x="478" y="129" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1601816768946" />
+    <state x="475" y="291" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601777709036">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="-1287" y="272" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1601108126208" />
-    <state x="-1451" y="102" key="SettingsEditor" timestamp="1601103547161">
-      <screen x="-1920" y="-77" width="1920" height="1080" />
+    <state x="475" y="291" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1601777709036" />
+    <state x="352" y="149" key="SettingsEditor" timestamp="1601768620391">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="-1451" y="102" key="SettingsEditor/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1599900686793" />
+    <state x="-1451" y="102" key="SettingsEditor/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1601650247102" />
+    <state x="352" y="149" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601768620391" />
     <state x="-1451" y="102" key="SettingsEditor/0.23.1440.877/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1601103547161" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1601111423348">
       <screen x="-1920" y="-77" width="1920" height="1080" />
