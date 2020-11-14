@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c75bb0-ac6a-4762-bf67-f15133c5d351" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Model/Entity/empty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Model/Table/empty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/Fixture/empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +95,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hOWF80EKKv8mf9k0cL58RpPPKF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -148,11 +148,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1303" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601084448983">
+    <state x="-1303" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605327959152">
       <screen x="-1920" y="-77" width="1920" height="1080" />
     </state>
     <state x="-869" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1280.0.1280.720@-1280.0.1280.720" timestamp="1599920231096" />
-    <state x="-1303" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1601084448983" />
+    <state x="-1303" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1605327959152" />
+    <state x="-1303" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1605326974668" />
     <state x="-1287" y="272" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601108126208">
       <screen x="-1920" y="-77" width="1920" height="1080" />
     </state>

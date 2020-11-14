@@ -30,4 +30,4 @@ services:
       #パスワード(secret)
       - MYSQL_ROOT_PASSWORD=secret
     ports:
-      - '13306:3306'
+      - '3306:3306'
