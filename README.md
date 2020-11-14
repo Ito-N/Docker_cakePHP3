@@ -10,7 +10,7 @@
         cd app
         
         // MVC 全てのファイル作成 
-        /bin/cake bake all posts
+        bin/cake bake all posts
         
 
 - migration
@@ -73,4 +73,22 @@ https://qiita.com/ozawan/items/8144e02ca70519f3dcaf    参考記事
         INSERT INTO posts (title, body, created) values  
         ('title 1', 'body 1', now()),  
         ('title 2', 'body 2', now()),  
-        ('title 3', 'body 3', now());     
+        ('title 3', 'body 3', now());
+        
+        // users
+        INSERT INTO users (username, password, nickname, created, modified) values  
+        ('noriaki_ito', '4087', 'nori', now(), now()),  
+        ('kenta_kato', '4087', 'ken', now(), now()),  
+        ('yoko_yamamoto', '4087', 'yop', now(), now());
+        
+        // questions
+        INSERT INTO questions (user_id, body, created, modified) values  
+        (1, '最近何かいいことありましたか？', now(), now()),  
+        (1, '今日のお昼は何食べましたか？', now(), now()),  
+        (1, '興味のある技術は？', now(), now());
+        
+        // answers
+        INSERT INTO answers (user_id, question_id, body, created, modified) values  
+        (2, 1, 'お金拾いました', now(), now()),  
+        (3, 1, '上司から褒められました', now(), now()),  
+        (2, 2, 'お蕎麦を食べました', now(), now());         
